@@ -1,16 +1,16 @@
-#Verbal Counting
+# Verbal Counting
 ## Описание
 Данное приложение основано на платформе vkMiniApps
 
-##Запуск
+## Запуск
 git clone https://github.com/Ragmanoid/Photo-Trader.git
 
 cd ./Photo-Trader
 
 npm start
-###Ngrok
+### Ngrok
 ngrok http 10888
-###Locx
+### Locx
 loclx tunnel http --to 10888 --region eu  --subdomain verbal-counting
 
 ## Список команд для работы с git
