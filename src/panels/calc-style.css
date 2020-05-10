@@ -1,0 +1,62 @@
+.equation {
+    margin: 15px;
+    width: calc(100% - 50px);
+    background-color: var(--background_highlighted);
+    border-radius: 10px;
+    color: var(--text_primary);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    max-height: 10vh;
+    border: 3px solid var(--background_highlighted);
+}
+
+.input {
+    margin: 15px;
+    width: calc(100% - 50px);
+    background-color: var(--background_highlighted);
+    border-radius: 10px;
+    color: var(--text_primary);
+    text-align: center;
+    padding: 20px 10px 0;
+    font-size: 30px;
+    max-height: 100px;
+    min-height: 7vh;
+    border: 3px solid var(--background_highlighted);
+}
+
+.panel {
+    max-width: calc(100vw - 24px);
+    margin: 15px auto;
+    color: var(--text_primary);
+    background-color: var(--background_content);
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn-table {
+
+}
+
+.btn {
+    background: var(--background_highlighted);
+    overflow: hidden;
+    width: calc((100vw - 52px) / 3);
+    height: calc((80vh - 227px) / 5);
+    border: 3px solid var(--background_highlighted);
+    border-radius: 5px;
+    font-size: 30px;
+    transition: .1s;
+}
+
+.ok {
+    width:  calc(((100vw / 3) - 12px) * 2);
+}
+
+.btn-text {
+    margin-top: calc((80vh - 227px) / 16);
+}
+
+.btn:active {
+    background: var(--background_content);
+}

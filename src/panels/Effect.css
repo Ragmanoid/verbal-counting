@@ -1,0 +1,29 @@
+.effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    opacity: .5;
+    pointer-events: none;
+
+    -webkit-animation: 1s linear 0s infinite alternate opacity;
+       -moz-animation: 1s linear 0s infinite alternate opacity;
+         -o-animation: 1s linear 0s infinite alternate opacity;
+            animation: 1s linear 0s infinite alternate opacity;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+@-webkit-keyframes opacity { from { opacity: 0; } to { opacity: .5 }  }
+@-moz-keyframes opacity    { from { opacity: 0; } to { opacity: .5 }  }
+@-o-keyframes opacity      { from { opacity: 0; } to { opacity: .5 }  }
+@keyframes opacity         { from { opacity: 0; } to { opacity: .5 }  }

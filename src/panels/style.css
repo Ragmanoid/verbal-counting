@@ -1,0 +1,11 @@
+.main-score {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.scoreTop {
+    /*position: relative;*/
+    font-size: 24px;
+    padding-left: 15px;
+}
